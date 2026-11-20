@@ -2,7 +2,7 @@ Secure Key Recovery v1
 
 A Java command-line application utilizing secure file encryption and distributed cryptographic key recovery using Shamir's Secret Sharing.
 
-##Features##
+## Features ##
 
 -AES-256-CBC file encryption.
 -HMAC-SHA256 based integrity and authenticity verification.
@@ -20,6 +20,6 @@ A Java command-line application utilizing secure file encryption and distributed
 - JCA
 - Shamir's Secret Sharing library (com.codahale:shamir)
 
-  ## Considerations ##
+## Considerations ##
 
   Initially developed as a final project for a course to demonstrate threshold based key recovery and cryptographic file protection. Not inherently very secure, but fun to play around with and examine for educational purposes. Might be expanded upon functionally in the future with a dedicated GUI, tamper evident audit logging, and centralized identity management systems.
