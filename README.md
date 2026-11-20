@@ -5,13 +5,18 @@ A Java command-line application utilizing secure file encryption and distributed
 ## Features ##
 
 -AES-256-CBC file encryption.
+
 -HMAC-SHA256 based integrity and authenticity verification.
+
 -3-of-5 Shamirs Secret Sharing to reconstruct lost keys.
+
 -Five password-authenticated shareholders using salted password hashing, configured at first run.
+
 -Integrity checks against submitted shares.
+
 -File Decryption using original key or reconstructed key file
 
---Requires Java 25, or newer.
+-Requires Java 25, or newer.
 
 ## Technologies ##
 
