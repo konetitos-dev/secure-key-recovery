@@ -20,6 +20,12 @@ A Java command-line application utilizing secure file encryption and distributed
 - JCA
 - Shamir's Secret Sharing library (com.codahale:shamir)
 
+## Usage ##
+
+Download from [Releases](../../releases).
+
+For installation and execution instructions, see [INSTALL.md](INSTALL.md).
+
 ## Considerations ##
 
   Initially developed as a final project for a course to demonstrate threshold based key recovery and cryptographic file protection. Not inherently very secure, but fun to play around with and examine for educational purposes. Might be expanded upon functionally in the future with a dedicated GUI, tamper evident audit logging, and centralized identity management systems.
